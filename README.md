@@ -12,17 +12,17 @@ Wikipedia search engine using the Wikipedia API that returns the first 5 hits an
 
 Used [React](https://reactjs.org/) for implementation
 
-Free [API:](https://www.mediawiki.org/wiki/API:Search) - code-level access to the entire Wikipedia database
+Free [API](https://www.mediawiki.org/wiki/API:Search) - code-level access to the entire Wikipedia database
 
 ### To run this project locally:
 
 ```
-$ npx create-react-app my-app
-$ cd my-app
+cd ../lorem
+$ npm install
 $ npm start
 ```
 
-### Third-party libraries:
+Third-Party NPM Packages:
 
 - react-hook-form: for form validation
 
