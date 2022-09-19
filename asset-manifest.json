@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wiki-search/static/css/main.c18626fb.css",
+    "main.js": "/wiki-search/static/js/main.447b3b23.js",
+    "static/media/wiki.webp": "/wiki-search/static/media/wiki.1fb768ad134a018e71a1.webp",
+    "index.html": "/wiki-search/index.html",
+    "main.c18626fb.css.map": "/wiki-search/static/css/main.c18626fb.css.map",
+    "main.447b3b23.js.map": "/wiki-search/static/js/main.447b3b23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c18626fb.css",
+    "static/js/main.447b3b23.js"
+  ]
+}
