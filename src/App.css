@@ -9,11 +9,13 @@ body {
 }
 
 h1 {
-    text-shadow: -1px -1px rgb(168, 139, 139), 1px 1px rgb(37, 185, 253), -3px 0 2px #000;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px rgb(63, 59, 59), -1px -1px #A7BBD7, 2px 0 1px #000;
+    color: #022C5F;
 }
 
 footer {
-    margin-top: 360px;
+    margin-top: 380px;
 }
 
 .result p .searchmatch {

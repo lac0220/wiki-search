@@ -31,10 +31,10 @@ export default function App() {
 
     return (
         <div className="container vh-100 pt-5">   
-            <h1 className="pt-5 lh-1 text-center fw-bold display-4">Wiki Search Engine</h1>  
+            <h1 className="container-fluid pt-5 lh-1 text-center fw-bold display-3">Wiki Search Engine</h1>  
             <div className="mb-4 mt-3 text-center">
                 <Link to="/" onClick={() => window.location.reload(false)}>
-                    <img src={img} style={{height: "130px"}} alt="Logo" />
+                    <img src={img} style={{height: "110px"}} alt="Logo" />
                 </Link>
             </div>
             <SearchBar setOffset={setOffset} setValue={setValue} />
@@ -49,10 +49,10 @@ export default function App() {
                 </div> : ''}
             <div className="result pb-4">
                 {searchResults.map((result, i) => (
-                    <div className="mx-auto mt-4 px-4 py-3 w-75 border rounded bg-white" key={i} >
-                        <h2 className="fw-bold fs-2">{result.title}</h2>
+                    <div className="mx-auto mt-4 px-4 w-75 border rounded bg-white" key={i} >
+                        <h2 className="my-3 fw-bold fs-2">{result.title}</h2>
                         <p className="fs-5" dangerouslySetInnerHTML={{__html: result.snippet}}></p>
-                        <a href={`https://en.wikipedia.org/?curid=${result.pageid}`} target='_blank' rel="noopener noreferrer"><Button className="btn btn-secondary text-white fs-4" aria-label="Read more">Read more</Button></a>
+                        <a href={`https://en.wikipedia.org/?curid=${result.pageid}`} target='_blank' rel="noopener noreferrer"><Button className="mb-3 btn btn-secondary text-white fs-4" aria-label="Read more">Read more</Button></a>
                     </div>
                 ))}
             </div>
