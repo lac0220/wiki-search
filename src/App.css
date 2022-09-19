@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+html, 
+body {
+    font-family:'Nunito','Times New Roman', Times, serif, serif;
+    background: #A7BBD7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    text-shadow: -1px -1px rgb(168, 139, 139), 1px 1px rgb(37, 185, 253), -3px 0 2px #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+    margin-top: 360px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.result p .searchmatch {
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 991px) {
+    
+    .w-75, 
+    .w-50 {
+       width: 85% !important;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width: 500px) {
+    
+    .w-75 {
+        width: 95% !important;
+     }
+
+    .w-25 {
+        width: 30% !important;
+     }
+
+     .btn-lg {
+        font-size: 1rem;
+     }
+}
+
+@media screen and (max-width: 375px) {
+    
+     .btn-lg {
+        font-size: 0.89rem;
+     }
+}
+
+@media screen and (max-width: 350px) {
+    
+    .btn-lg {
+       font-size: 0.83rem;
+    }
 }
