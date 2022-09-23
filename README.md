@@ -1,6 +1,6 @@
 # Wikipedia Search Engine
 
-Wikipedia search engine using the Wikipedia API that returns the first 5 hits and shows the rest on request
+Wikipedia search engine using the Wikipedia API that returns the first 5 listed hits and shows the rest on request. The hits forward us to the specific Wikipedia entry, the so-called wiki page
 
 ## Tech Stack
 
@@ -24,11 +24,11 @@ $ npm start
 
 Third-Party NPM Packages:
 
+- react-router-dom: for client side routing (logo image)
+
+- react-bootstrap: for adding Bootstrap CSS Framework to the project
+
 - react-hook-form: for form validation
-
-- react-bootstrap: for adding bootstrap in React component
-
-- react-router-dom: for link logo image
 
 ## Version
 
