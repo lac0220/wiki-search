@@ -7,7 +7,13 @@ export default function SearchBar({ setValue, setOffset }) {
 
     return (
         <form className="d-flex flex-column align-items-center" onSubmit={handleSubmit(onSubmit)}>
-            <input className="form-control flex-nowrap p-2 w-50 border border-3 border-primary fs-4" type="text" id="searchBar" placeholder="Enter your search term..." {...register("text", { required: true})} />
+            <input 
+                className="form-control flex-nowrap p-2 w-50 border border-3 border-primary fs-4" 
+                type="text" 
+                id="searchBar" 
+                placeholder="Enter your search term..." 
+                {...register("text", { required: true })} 
+            />
             {errors.text?.type === 'required' && <span className="mt-3 fw-bold fs-4 text-danger">This field is required!</span>}
             <Button 
                 className="my-3 w-25 fw-bold fs-4"

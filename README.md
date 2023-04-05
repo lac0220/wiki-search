@@ -26,13 +26,16 @@ Third-Party NPM Packages:
 
 - react-router-dom: for client side routing (logo image)
 
+- axios: for creating HTTP requests
+
 - react-bootstrap: for adding Bootstrap CSS Framework to the project
 
 - react-hook-form: for form validation
-
 ## Version
 
 1.0 - 19/09/2022 - Publishing of the website
+
+1.1 - 06/04/2023 - Improving HTTP requests with axios
 
 ## Author
 
