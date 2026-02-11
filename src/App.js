@@ -1,10 +1,10 @@
 import './App.css';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 import SearchBar from './SearchBar';
 import Button from 'react-bootstrap/Button';
 import img from './img/wiki.webp';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 export default function App() {
     const [value, setValue] = useState('');
@@ -34,11 +34,7 @@ export default function App() {
         <div className="container vh-100 pt-5">   
             <h1 className="container-fluid pt-5 lh-1 text-center fw-bold display-3">Wiki Search Engine</h1>  
             <div className="mb-4 mt-3 text-center">
-                <Link 
-                    to="/" 
-                    onClick={() => window.location.reload(false)}>
-                    <img src={img} style={{ height: "110px" }} alt="Logo" />
-                </Link>
+                <Link to="/" onClick={() => window.location.reload(false)}><img src={img} style={{ height: "110px" }} alt="Logo" /></Link>
             </div>
             <SearchBar setOffset={setOffset} setValue={setValue} />
             {
@@ -83,7 +79,7 @@ export default function App() {
                     </div>
                 ))}
             </div>
-            <footer className="pb-5 text-center fs-4">Copyright &copy; Laszlo Nemeth 2023</footer>
+            <footer className="pb-5 text-center fs-4">Copyright &copy; Laszlo Nemeth 2026</footer>
         </div>            
     );
 }

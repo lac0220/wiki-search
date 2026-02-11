@@ -22,6 +22,11 @@ footer {
     font-weight: bold;
 }
 
+.my-3.w-25.fw-bold.fs-4:active {
+  background-color: green !important;
+  border-color: green !important;
+}
+
 @media screen and (max-width: 991px) {
     
     .w-75, 

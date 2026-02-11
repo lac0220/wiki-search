@@ -14,7 +14,7 @@ export default function SearchBar({ setValue, setOffset }) {
                 placeholder="Enter your search term..." 
                 {...register("text", { required: true })} 
             />
-            {errors.text?.type === 'required' && <span className="mt-3 fw-bold fs-4 text-danger">This field is required!</span>}
+            {errors.text?.type === 'required' && <span className="mt-3 fw-bold fs-4 text-danger">Enter a keyword!</span>}
             <Button 
                 className="my-3 w-25 fw-bold fs-4"
                 aria-label="Search"
@@ -25,4 +25,3 @@ export default function SearchBar({ setValue, setOffset }) {
         </form>    
     )
 }
-
