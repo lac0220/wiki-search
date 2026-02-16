@@ -1,18 +1,58 @@
 # Wikipedia Search Engine
 
-Wikipedia search engine using the Wikipedia API that returns the first 5 listed hits and shows the rest on request. The hits forward us to the specific Wikipedia entry, the so-called wiki page
+A React-based search application that integrates with the Wikipedia API to retrieve and display search results dynamically.
+
+The application initially returns the top five results and allows users to load additional results on demand. Each search result links directly to its corresponding Wikipedia article for further exploration.
+
+## Features
+
+- Real-time search using the Wikipedia API
+
+- Displays first 5 results initially
+
+- Load more results functionality
+
+- Direct links to official Wikipedia pages
+
+- Form validation
+
+- Responsive design
 
 ## Tech Stack
 
+### Frontend
+
 - React.js
+
 - Bootstrap 5
+
 - CSS3
+
+### API
+
+- Wikipedia MediaWiki API
+
+## Third-Party Libraries
+
+- react-router-dom – client-side routing
+
+- axios – HTTP requests and API communication
+
+- react-bootstrap – Bootstrap component integration
+
+- react-hook-form – form validation
+
+## API Reference
+
+This project uses the official MediaWiki API:
+
+https://www.mediawiki.org/wiki/API:Search
+
+The API provides structured access to Wikipedia’s database and enables dynamic search queries.
 
 ## Setup
 
-Used [React](https://reactjs.org/) for implementation
-
-Free [API](https://www.mediawiki.org/wiki/API:Search) - code-level access to the entire Wikipedia database
+The project is implemented using [React](https://reactjs.org/)
 
 ### To run this project locally:
 
@@ -22,27 +62,18 @@ $ npm install
 $ npm start
 ```
 
-Third-Party NPM Packages:
-
-- react-router-dom: for client side routing (logo image)
-
-- axios: for creating HTTP requests
-
-- react-bootstrap: for adding Bootstrap CSS Framework to the project
-
-- react-hook-form: for form validation
 ## Version
 
-1.0 - 19/09/2022 - Publishing of the website
+1.0 – 19/09/2022 – Initial release
 
-1.1 - 06/04/2023 - Improving HTTP requests with axios
+1.1 – 06/04/2023 – Improved HTTP requests using Axios
 
 ## Author
 
 <b>Laszlo Nemeth</b>
 
 <div id="badges">
-    <a href="https://https://lac0220.github.io/laszlo-nemeth-portfolio/">
+    <a href="https://lac0220.github.io/laszlo-nemeth-portfolio/">
         <img src="https://img.shields.io/badge/Portfolio-red?style=for-the-badge&logo=logoColor=white" alt="Portfolio Badge"/>
     </a>
     <a href="https://www.linkedin.com/in/nemeth0220">
